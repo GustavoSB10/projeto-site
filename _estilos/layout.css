@@ -1,0 +1,420 @@
+
+
+* {
+    margin:0;padding:0;box-sizing:border-box;
+}
+
+
+header{
+  
+    position: relative;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0)), url(../fundo\ p.webp);
+    background-size: cover;
+    background-position: center center;
+    
+
+
+    width: 100%;
+    height: 100vh; 
+    border-top: 5px solid #f03733;
+
+    clip-path: polygon(0 0, 100% 0, 100% 97%, 0 100%);
+
+}
+nav{
+ width: 95%;
+ height: 200px;
+ margin:10px  auto;
+}
+
+img {
+    height: 150px;
+    width: 200px;
+    background-size: contain;
+
+    float:left;
+}
+
+nav ul#esquerda{
+    float: left;
+}
+
+nav ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+    margin-top: 60px;
+    height: 40px;
+
+
+}
+  nav ul#direita {
+    float: right;
+  }
+
+ 
+  nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 100px;
+    font-size: 65%;
+   
+  }
+  
+
+
+nav ul li {
+
+    list-style: none;
+    text-decoration: none;
+    
+
+
+}
+nav ul li a:hover {
+    background-color: #F2B705;
+    transition-duration: 0.8s;
+    cursor: pointer;
+
+    
+}
+
+ nav ion-icon#icone-user{
+
+    width: 29px;
+    height: 55px;
+    color: white;
+    margin-top: -13px;
+    margin-left: -00px;
+    cursor: pointer;
+  
+ }
+
+
+ nav ul li a#criar-conta {
+    border: 1px yellow;
+    padding: 9px 33x;
+    cursor: pointer;
+
+
+ }
+
+ nav ion-icon#icone-user:hover{
+
+    color:#F2B705;
+    cursor: pointer;
+  
+     }
+
+     header div#chamada {
+        position: absolute;
+        width: 100%;
+        height: 300px;
+        text-align: center;
+
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% ,-50%);
+
+
+     }
+
+
+     section#domingo-perfeito {
+
+        width: 100%;
+        padding: 40px 0 80px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+
+
+     }
+
+        div#domingo-perfeito-esquerda, div#domingo-perfeito-direita {
+
+
+            position: relative;
+            width: 15%;
+
+        }
+
+        div.folha1 {
+            position: absolute;
+            top: 40px;
+            left: 40px;
+            width: 100px;
+            height: 100px;
+            
+            background-repeat: no-repeat;
+        }
+        div.camarao {
+            position: absolute;
+            top: 250px;
+            left: 50px;
+            width: 100px;
+            height: 100px;
+            
+            background-repeat: no-repeat;
+        }
+
+        div.folha3 {
+            position: absolute;
+            top: 100px;
+            left: 20px;
+            width: 100px;
+            height: 100px;
+            
+            background-repeat: no-repeat;
+
+}
+     div#domingo-perfeito-centro {
+
+        width: 65%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: center;
+
+
+
+     }
+
+
+     div#pontos-chaves-mestre{
+
+width: 100%;
+margin-top: 40px;
+display: flex;
+flex-flow: row wrap;
+justify-content: space-between;
+
+     }
+
+     div.pontos-chaves {
+     
+        text-align: center;
+        width: 24%;
+
+     }
+
+
+
+     section#domingo-perfeito div.pontos-chaves ion-icon{
+
+
+        width: 50px;
+        height: 50px;
+        color: red;
+
+     }
+
+     
+     /* sessao pizza */
+
+     section#pizza {
+        padding: 40px 0 80px;
+        background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.4)),url(../massa.jpg);
+       
+        background-size: cover;
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: center;
+
+        clip-path: polygon( 0  3%, 100% 0 , 100% 97%, 0 100%);
+
+     }
+     
+     div#pizza-opcoes-mestre {
+
+
+        width: 80%;
+        margin-top: 30px;
+        
+        display: flex;
+        flex-flow: row wrap;
+     
+
+       
+
+     }
+
+     div.pizza-opcoes {
+
+
+        width: 33.3%;
+        text-align: center;
+
+        margin: 5px 0;
+        
+       
+        
+
+     }
+
+    
+     
+
+     
+
+  div#transicao {
+
+    width: 100%;
+    height: 380px;
+    display: flex;
+    flex-flow: row wrap ;
+    justify-content: space-between;
+
+  }
+
+  div#transicao div#decoracao1{
+    width: 30%;
+    height: 100%;
+    background-image: url(../manjericao.png);
+    margin: 30px;
+
+background-repeat: no-repeat;
+background-position: top center;
+
+
+  }
+
+  div#transicao div#decoracao2{
+    width: 30%;
+    height: 100%;
+    background-image: url(../azeite.png);
+    background-repeat: no-repeat;
+background-position: bottom center;
+}
+
+div#transicao div#decoracao3{
+
+    width: 30%;
+    height: 100%;
+    background-image: url(../manj.png);
+    background-repeat: no-repeat;
+background-position: top center;
+}
+
+
+/* SESSAO PLANOS*/
+
+section#plano-principal {
+width: 100%;
+padding: 40px 0 80px;
+
+}
+
+div#planos-janela {
+
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+    }
+ div.planos {
+
+
+    width: 250px;
+    height: 450px;
+    margin:80px 30px;
+ }
+ div.planos-top {
+
+
+    width: 250px;
+    height: 350px;
+    background-color: #F7F7F7;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+    text-align: center;
+    box-shadow: 2px 2px 3px tan;
+
+
+ }
+
+ div.plano-bottom {
+width: 250px;
+height: 100px;
+background-color: teal;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+
+cursor: pointer;
+
+
+ }
+
+
+
+ /* footer */
+
+ footer{
+
+padding-top: 36px;
+padding-left: 36px;
+    width: 100%;
+    height: 900px;
+    background-image: url(../xadrex.jpg);
+    background-repeat: repeat;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+ }
+
+ footer div#mapa{
+
+    width: 35%;
+    height: 390px;
+    background-color: rgba(255,255,255,1);
+
+ }
+
+ footer div#info {
+
+    width: 30%;
+    height: 390px;
+    background-color: #f03733;
+
+ }
+
+ footer div#redes-sociais{
+
+margin-left: 15px;
+width: 80%;
+height: 70px;
+display: flex;
+flex-flow: row wrap;
+justify-content: space-between;
+cursor: pointer;
+ }
+ footer div#redes-sociais ion-icon {
+
+    color: white;
+    height: 100%;
+    width: 20%;
+ }
+
+ footer div#redes-sociais ion-icon:hover{
+
+    color: #F2B705;
+ }
+
+
+ footer div#pizza-rodape {
+
+    width: 300px;
+    height: 390px;
+
+    background-image: url(../azeite.png);
+    background-repeat: no-repeat;
+ }
